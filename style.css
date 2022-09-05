@@ -1,0 +1,55 @@
+@import url(https://fonts.google.com/specimen/Barlow+Semi+Condensed);
+
+:root{
+    /*Color*/
+    /*Prime*/
+    --Moderate-violet: #7541c8;
+    --Very-dark-grayish-blue: #48556a;
+    --Very-dark-blackish-blue: #19212e;
+    --White: #ffffff;
+    /*Neutral*/
+    --Light-gray: #cfcfcf;
+    --Light-grayish-blue: #ecf2f8;
+
+    /*opacity*/
+    --opacity-paragraph: 70%;
+    --opacity-person-title: 50%;
+
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 13px;
+    background-color: var(--Light-grayish-blue);
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile img{
+    border-radius: 50%;
+}
+.item1{background-color:var(--Moderate-violet);}
+.item2{background-color:var(--Very-dark-grayish-blue);}
+.item3{background-color:var(--White);}
+.item4{background-color: var(--Very-dark-blackish-blue);}
+.item5{background-color: var(--White);}
+    
+/*Mobile App*/
+@media only screen and (width :375px) {
+    
+}
+
+/*Desktop App*/
+@media only screen and (width :1440px){
+
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
